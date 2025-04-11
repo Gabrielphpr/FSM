@@ -80,3 +80,7 @@ Ambos os projetos implementam MEFs com os seguintes estados principais:
 2. **Acumulando valor**: Recebendo moedas
 3. **Devolvendo dinheiro**: Quando valor excede R$1,00
 4. **Liberando produto**: Quando valor exato é inserido e botão pressionado
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
