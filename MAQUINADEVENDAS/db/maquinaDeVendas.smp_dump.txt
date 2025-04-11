@@ -1,0 +1,6 @@
+
+State Machine - |maquinaDeVendas|m:inst|estado
+Name estado.entregando estado.devolvendo estado.recebendo 
+estado.recebendo 0 0 0 
+estado.devolvendo 0 1 1 
+estado.entregando 1 0 1 
