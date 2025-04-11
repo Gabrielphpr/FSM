@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ANDARATUALU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARATUALU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARATUALU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARATUALU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARATUALU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARATUALU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARATUALU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDARREQU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDATUALD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDATUALD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDATUALD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDATUALD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDATUALD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDATUALD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDATUALD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ESTADO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ESTADO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ccc",
+					"strict" : false
+				},
+				{
+					"name" : "R",
+					"strict" : false
+				},
+				{
+					"name" : "ANDREQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDREQ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDREQ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ANDREQ[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

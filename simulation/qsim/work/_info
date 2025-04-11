@@ -1,0 +1,203 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/USP/PSD/ELEVADOR/simulation/qsim
+Eelevador
+Z1 w1731893850
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 12
+R0
+Z11 8elevador.vho
+Z12 Felevador.vho
+l0
+Z13 L39 1
+VVkBYE]DRb6Zg:2hnZ0OhD3
+!s100 nH>iH@ze]lDdNQT7Y=HOn3
+Z14 OV;C;2020.1;71
+32
+!s110 1731893852
+!i10b 1
+Z15 !s108 1731893852.000000
+Z16 !s90 -work|work|elevador.vho|
+Z17 !s107 elevador.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 8 elevador 0 22 VkBYE]DRb6Zg:2hnZ0OhD3
+!i122 12
+l5329
+L75 50817
+V3]7l]00oIEoXi=Cdjzj:=1
+!s100 [Z^B4PRzGGDjfm]Zg>Q`[1
+R14
+32
+!s110 1731893853
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Eelevador_vhd_vec_tst
+Z20 w1731893848
+R8
+R9
+!i122 13
+R0
+Z21 8Waveform2.vwf.vht
+Z22 FWaveform2.vwf.vht
+l0
+Z23 L32 1
+V6zURB;DCBjcg4D_;UP[;D1
+!s100 Qe@LO7iz_hc_H4Nn4mYh20
+R14
+32
+Z24 !s110 1731893854
+!i10b 1
+Z25 !s108 1731893854.000000
+Z26 !s90 -work|work|Waveform2.vwf.vht|
+Z27 !s107 Waveform2.vwf.vht|
+!i113 1
+R18
+R19
+Aelevador_arch
+R8
+R9
+DEx4 work 20 elevador_vhd_vec_tst 0 22 6zURB;DCBjcg4D_;UP[;D1
+!i122 13
+l53
+L34 108
+VSD_7S[]z<nhAHFbBSMSbe0
+!s100 >59jQT<hg>e8JAWXE3VW@3
+R14
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R18
+R19
+Eelevadoresquematico
+Z28 w1732828581
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+!i122 34
+R0
+R11
+R12
+l0
+R13
+VDYdj5:Ycn5N;Y^4jQ_]FI0
+!s100 @TGK[^5Y5<FU0[5[0;ImO0
+R14
+32
+!s110 1732828582
+!i10b 1
+Z29 !s108 1732828582.000000
+R16
+R17
+!i113 1
+R18
+R19
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 19 elevadoresquematico 0 22 DYdj5:Ycn5N;Y^4jQ_]FI0
+!i122 34
+l5397
+L95 51886
+VaflO_==FNJkZ0U=lE?m;E3
+!s100 3_c4[HC2=CjkSBVIMM^ZV0
+R14
+32
+!s110 1732828583
+!i10b 1
+R29
+R16
+R17
+!i113 1
+R18
+R19
+Eelevadoresquematico_vhd_vec_tst
+Z30 w1732828579
+R8
+R9
+!i122 35
+R0
+Z31 8Waveform5.vwf.vht
+Z32 FWaveform5.vwf.vht
+l0
+R23
+V2kgz9?T[FM^R<HSDQfM@31
+!s100 153da3dlVZ619BK[GH][k3
+R14
+32
+Z33 !s110 1732828584
+!i10b 1
+Z34 !s108 1732828583.000000
+Z35 !s90 -work|work|Waveform5.vwf.vht|
+Z36 !s107 Waveform5.vwf.vht|
+!i113 1
+R18
+R19
+Aelevadoresquematico_arch
+R8
+R9
+Z37 DEx4 work 31 elevadoresquematico_vhd_vec_tst 0 22 2kgz9?T[FM^R<HSDQfM@31
+!i122 35
+l61
+Z38 L34 130
+Z39 V1JoEDl[L^i6JR;9JAP_i01
+Z40 !s100 7CK`JP4@a>Kg8I1Kl:k=Y2
+R14
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R18
+R19

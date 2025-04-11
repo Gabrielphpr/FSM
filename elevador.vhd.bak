@@ -1,0 +1,64 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity elevador is
+    port(
+			clk, reset: in std_logic;
+			andarReq: in std_logic_vector(3 downto 0);
+			andarAtual: out std_logic_vector(3 downto 0);
+			estadoAtual: out std_logic_vector(1 downto 0)
+		  );
+end elevador;
+
+architecture behaviour of elevador is
+    type tipo is (parado, subindo, descendo);
+    signal estado: tipo;
+begin
+	process(clk, reset)
+			variable andar1: std_logic_vector(3 downto 0);
+			variable andar2: std_logic_vector(3 downto 0);
+		if reset = '1' then
+			estado <= parado;
+			andar1 := (others => '0');
+			andar2 := (others => '0');
+		elsif rising_edge(clk) then
+		
+			case estado is
+				when parado =>
+					andar2 := andarReq;
+					if unsigned(andar2) > unsigned(andar1) then
+						estado <= subindo;
+					elsif unsigned(andar2) < unsigned(andar1) then
+						estado <= descendo;
+					else 
+						estado <= parado;
+					end if;
+					
+				when subindo =>
+					if unsigned(andar2) > unsigned(andar1) then
+						andar1 := std_logic_vector(unsigned(andar1) + 1);
+					elsif andar2 = andar1 then
+						estado <= parado;
+					end if;
+					
+				when descendo =>
+					if unsigned(andar2) < unsigned(andar1) then
+						andar1 := std_logic_vector(unsigned(andar1) - 1)
+					elsif unsigned(andar2) = unsigned(andar1) then
+						estado <= parado;
+					end if;
+					
+			end case;
+			
+			andarAtual <= andar1;
+			
+			case estado is
+				when parado =>   estadoAtual <= "00";
+				when subindo =>  estadoAtual <= "01";
+				when descendo => estadoAtual <= "10";
+			end case;
+			
+		end if;
+	end process;
+end behaviour;
